@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+#main-container{
+    padding: 10px;
+}
+
+.main-heading{
+    margin-top: 100px;
+    margin-left: 70px;
+    color: rgb(27, 25, 25);
+}
+
+#photos-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px 100px;
+}
+
+.photo-card{
+    width: 16%;
+    margin: 12px;
+    box-shadow: 0 0 6px grey;
+}
+
+.product-photo{
+    width: 100%;
+}
+
+.product-details{
+    padding: 10px;
+}
+
+.main-title{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+    padding: 5px;
+}
+
+.brand-name{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+    padding: 5px;
+}
+
+.product-price{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #009688;
+    padding: 5px;
+}
+
+.container-2{
+    padding: 10px;
+}
+
+#photos-section-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px 100px;
+}
